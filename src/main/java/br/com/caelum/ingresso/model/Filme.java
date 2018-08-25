@@ -18,7 +18,7 @@ public class Filme {
 		this.duracao = duracao;
 	}
 
-	private BigDecimal preco;
+	private BigDecimal preco = BigDecimal.ZERO;
 
     @Id
     @GeneratedValue
