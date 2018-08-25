@@ -13,10 +13,6 @@ import javax.persistence.Id;
  */
 @Entity
 public class Filme {
-	
-	public void setDuracao(Duration duracao) {
-		this.duracao = duracao;
-	}
 
 	private BigDecimal preco = BigDecimal.ZERO;
 
